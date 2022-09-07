@@ -12,7 +12,7 @@ android {
     compileSdk = 32
 
     defaultConfig {
-        applicationId = "eu.krzdabrowski.starter"
+        applicationId = "{{inputs.app_package}}"
         minSdk = 24
         targetSdk = 32
         versionCode = 1
