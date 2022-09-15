@@ -7,7 +7,7 @@ import dagger.Provides
 import dagger.hilt.InstallIn
 import dagger.hilt.android.qualifiers.ApplicationContext
 import dagger.hilt.components.SingletonComponent
-import eu.krzdabrowski.starter.basicfeature.data.local.dao.RocketDao
+import {{inputs.app_package}}.basicfeature.data.local.dao.RocketDao
 import javax.inject.Singleton
 
 private const val APP_DATABASE_NAME = "app_database_name"

@@ -7,8 +7,8 @@ import androidx.compose.material.Divider
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.res.dimensionResource
-import eu.krzdabrowski.starter.basicfeature.R
-import eu.krzdabrowski.starter.basicfeature.presentation.model.RocketDisplayable
+import {{inputs.app_package}}.basicfeature.R
+import {{inputs.app_package}}.basicfeature.presentation.model.RocketDisplayable
 
 @Composable
 fun RocketsListContent(

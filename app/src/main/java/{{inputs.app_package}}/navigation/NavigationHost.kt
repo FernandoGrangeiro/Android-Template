@@ -4,8 +4,8 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.navigation.NavHostController
 import androidx.navigation.compose.NavHost
-import eu.krzdabrowski.starter.core.navigation.NavigationDestination
-import eu.krzdabrowski.starter.core.navigation.NavigationFactory
+import {{inputs.app_package}}.core.navigation.NavigationDestination
+import {{inputs.app_package}}.core.navigation.NavigationFactory
 
 @Composable
 fun NavigationHost(

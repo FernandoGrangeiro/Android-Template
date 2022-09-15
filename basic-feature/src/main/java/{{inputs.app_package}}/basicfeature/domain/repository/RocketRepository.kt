@@ -1,6 +1,6 @@
 package {{inputs.app_package}}.basicfeature.domain.repository
 
-import eu.krzdabrowski.starter.basicfeature.domain.model.Rocket
+import {{inputs.app_package}}.basicfeature.domain.model.Rocket
 import kotlinx.coroutines.flow.Flow
 
 interface RocketRepository {

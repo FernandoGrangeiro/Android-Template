@@ -1,11 +1,11 @@
 package {{inputs.app_package}}.basicfeature.data.repository
 
-import eu.krzdabrowski.starter.basicfeature.data.local.dao.RocketDao
-import eu.krzdabrowski.starter.basicfeature.data.mapper.toDomainModel
-import eu.krzdabrowski.starter.basicfeature.data.mapper.toEntityModel
-import eu.krzdabrowski.starter.basicfeature.data.remote.api.RocketApi
-import eu.krzdabrowski.starter.basicfeature.domain.model.Rocket
-import eu.krzdabrowski.starter.basicfeature.domain.repository.RocketRepository
+import {{inputs.app_package}}.basicfeature.data.local.dao.RocketDao
+import {{inputs.app_package}}.basicfeature.data.mapper.toDomainModel
+import {{inputs.app_package}}.basicfeature.data.mapper.toEntityModel
+import {{inputs.app_package}}.basicfeature.data.remote.api.RocketApi
+import {{inputs.app_package}}.basicfeature.domain.model.Rocket
+import {{inputs.app_package}}.basicfeature.domain.repository.RocketRepository
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.map
 import kotlinx.coroutines.flow.onEach

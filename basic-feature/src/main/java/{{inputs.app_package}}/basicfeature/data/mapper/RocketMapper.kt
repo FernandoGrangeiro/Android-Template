@@ -1,8 +1,8 @@
 package {{inputs.app_package}}.basicfeature.data.mapper
 
-import eu.krzdabrowski.starter.basicfeature.data.local.model.RocketCached
-import eu.krzdabrowski.starter.basicfeature.data.remote.model.RocketResponse
-import eu.krzdabrowski.starter.basicfeature.domain.model.Rocket
+import {{inputs.app_package}}.basicfeature.data.local.model.RocketCached
+import {{inputs.app_package}}.basicfeature.data.remote.model.RocketResponse
+import {{inputs.app_package}}.basicfeature.domain.model.Rocket
 import java.time.LocalDate
 import java.time.format.DateTimeFormatter
 

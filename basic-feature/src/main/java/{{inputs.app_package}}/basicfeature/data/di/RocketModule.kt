@@ -5,13 +5,13 @@ import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn
 import dagger.hilt.components.SingletonComponent
-import eu.krzdabrowski.starter.basicfeature.data.remote.api.RocketApi
-import eu.krzdabrowski.starter.basicfeature.data.repository.RocketRepositoryImpl
-import eu.krzdabrowski.starter.basicfeature.domain.repository.RocketRepository
-import eu.krzdabrowski.starter.basicfeature.domain.usecase.GetRocketsUseCase
-import eu.krzdabrowski.starter.basicfeature.domain.usecase.RefreshRocketsUseCase
-import eu.krzdabrowski.starter.basicfeature.domain.usecase.getRockets
-import eu.krzdabrowski.starter.basicfeature.domain.usecase.refreshRockets
+import {{inputs.app_package}}.basicfeature.data.remote.api.RocketApi
+import {{inputs.app_package}}.basicfeature.data.repository.RocketRepositoryImpl
+import {{inputs.app_package}}.basicfeature.domain.repository.RocketRepository
+import {{inputs.app_package}}.basicfeature.domain.usecase.GetRocketsUseCase
+import {{inputs.app_package}}.basicfeature.domain.usecase.RefreshRocketsUseCase
+import {{inputs.app_package}}.basicfeature.domain.usecase.getRockets
+import {{inputs.app_package}}.basicfeature.domain.usecase.refreshRockets
 import retrofit2.Retrofit
 import javax.inject.Singleton
 

@@ -12,9 +12,9 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.res.dimensionResource
 import androidx.compose.ui.res.stringResource
 import coil.compose.AsyncImage
-import eu.krzdabrowski.starter.basicfeature.R
-import eu.krzdabrowski.starter.basicfeature.presentation.model.RocketDisplayable
-import eu.krzdabrowski.starter.core.ui.Typography
+import {{inputs.app_package}}.basicfeature.R
+import {{inputs.app_package}}.basicfeature.presentation.model.RocketDisplayable
+import {{inputs.app_package}}.core.ui.Typography
 
 @Composable
 fun RocketItem(

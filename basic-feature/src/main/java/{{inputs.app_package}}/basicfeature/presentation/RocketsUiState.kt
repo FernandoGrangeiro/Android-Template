@@ -2,7 +2,7 @@ package {{inputs.app_package}}.basicfeature.presentation
 
 import android.os.Parcelable
 import androidx.compose.runtime.Immutable
-import eu.krzdabrowski.starter.basicfeature.presentation.model.RocketDisplayable
+import {{inputs.app_package}}.basicfeature.presentation.model.RocketDisplayable
 import kotlinx.parcelize.Parcelize
 
 @Immutable

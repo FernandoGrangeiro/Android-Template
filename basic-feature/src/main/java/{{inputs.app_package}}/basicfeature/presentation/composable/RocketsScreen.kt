@@ -11,15 +11,15 @@ import androidx.compose.ui.res.stringResource
 import androidx.hilt.navigation.compose.hiltViewModel
 import com.google.accompanist.swiperefresh.SwipeRefresh
 import com.google.accompanist.swiperefresh.rememberSwipeRefreshState
-import eu.krzdabrowski.starter.basicfeature.R
-import eu.krzdabrowski.starter.basicfeature.presentation.RocketsEvent
-import eu.krzdabrowski.starter.basicfeature.presentation.RocketsEvent.OpenWebBrowserWithDetails
-import eu.krzdabrowski.starter.basicfeature.presentation.RocketsIntent.RefreshRockets
-import eu.krzdabrowski.starter.basicfeature.presentation.RocketsIntent.RocketClicked
-import eu.krzdabrowski.starter.basicfeature.presentation.RocketsUiState
-import eu.krzdabrowski.starter.basicfeature.presentation.RocketsViewModel
-import eu.krzdabrowski.starter.core.extensions.collectAsStateWithLifecycle
-import eu.krzdabrowski.starter.core.extensions.collectWithLifecycle
+import {{inputs.app_package}}.basicfeature.R
+import {{inputs.app_package}}.basicfeature.presentation.RocketsEvent
+import {{inputs.app_package}}.basicfeature.presentation.RocketsEvent.OpenWebBrowserWithDetails
+import {{inputs.app_package}}.basicfeature.presentation.RocketsIntent.RefreshRockets
+import {{inputs.app_package}}.basicfeature.presentation.RocketsIntent.RocketClicked
+import {{inputs.app_package}}.basicfeature.presentation.RocketsUiState
+import {{inputs.app_package}}.basicfeature.presentation.RocketsViewModel
+import {{inputs.app_package}}.core.extensions.collectAsStateWithLifecycle
+import {{inputs.app_package}}.core.extensions.collectWithLifecycle
 import kotlinx.coroutines.flow.Flow
 
 @Composable

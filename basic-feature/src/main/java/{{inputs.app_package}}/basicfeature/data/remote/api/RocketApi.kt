@@ -1,6 +1,6 @@
 package {{inputs.app_package}}.basicfeature.data.remote.api
 
-import eu.krzdabrowski.starter.basicfeature.data.remote.model.RocketResponse
+import {{inputs.app_package}}.basicfeature.data.remote.model.RocketResponse
 import retrofit2.http.GET
 
 interface RocketApi {

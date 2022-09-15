@@ -7,9 +7,9 @@ import dagger.hilt.InstallIn
 import dagger.hilt.android.components.ViewModelComponent
 import dagger.hilt.components.SingletonComponent
 import dagger.multibindings.IntoSet
-import eu.krzdabrowski.starter.basicfeature.presentation.RocketsNavigationFactory
-import eu.krzdabrowski.starter.basicfeature.presentation.RocketsUiState
-import eu.krzdabrowski.starter.core.navigation.NavigationFactory
+import {{inputs.app_package}}.basicfeature.presentation.RocketsNavigationFactory
+import {{inputs.app_package}}.basicfeature.presentation.RocketsUiState
+import {{inputs.app_package}}.core.navigation.NavigationFactory
 import javax.inject.Singleton
 
 @Module

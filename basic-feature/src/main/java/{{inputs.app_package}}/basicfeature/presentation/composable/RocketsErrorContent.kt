@@ -12,7 +12,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.style.TextAlign
-import eu.krzdabrowski.starter.basicfeature.R
+import {{inputs.app_package}}.basicfeature.R
 
 @Composable
 fun RocketsErrorContent() {

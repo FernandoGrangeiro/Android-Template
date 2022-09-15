@@ -2,8 +2,8 @@ package {{inputs.app_package}}.database
 
 import androidx.room.Database
 import androidx.room.RoomDatabase
-import eu.krzdabrowski.starter.basicfeature.data.local.dao.RocketDao
-import eu.krzdabrowski.starter.basicfeature.data.local.model.RocketCached
+import {{inputs.app_package}}.basicfeature.data.local.dao.RocketDao
+import {{inputs.app_package}}.basicfeature.data.local.model.RocketCached
 
 private const val DATABASE_VERSION = 1
 

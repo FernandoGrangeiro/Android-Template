@@ -1,8 +1,8 @@
 package {{inputs.app_package}}.navigation
 
-import eu.krzdabrowski.starter.core.di.MainImmediateScope
-import eu.krzdabrowski.starter.core.navigation.NavigationCommand
-import eu.krzdabrowski.starter.core.navigation.NavigationManager
+import {{inputs.app_package}}.core.di.MainImmediateScope
+import {{inputs.app_package}}.core.navigation.NavigationCommand
+import {{inputs.app_package}}.core.navigation.NavigationManager
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.channels.Channel
 import kotlinx.coroutines.flow.receiveAsFlow

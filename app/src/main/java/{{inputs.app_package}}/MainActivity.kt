@@ -11,11 +11,11 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.res.stringResource
 import androidx.navigation.compose.rememberNavController
 import dagger.hilt.android.AndroidEntryPoint
-import eu.krzdabrowski.starter.core.extensions.collectWithLifecycle
-import eu.krzdabrowski.starter.core.navigation.NavigationFactory
-import eu.krzdabrowski.starter.core.navigation.NavigationManager
-import eu.krzdabrowski.starter.core.ui.AndroidStarterTheme
-import eu.krzdabrowski.starter.navigation.NavigationHost
+import {{inputs.app_package}}.core.extensions.collectWithLifecycle
+import eu. .starter.core.navigation.NavigationFactory
+import {{inputs.app_package}}.core.navigation.NavigationManager
+import {{inputs.app_package}}.core.ui.AndroidStarterTheme
+import {{inputs.app_package}}.navigation.NavigationHost
 import javax.inject.Inject
 
 @AndroidEntryPoint

@@ -1,7 +1,7 @@
 package {{inputs.app_package}}.basicfeature.presentation.mapper
 
-import eu.krzdabrowski.starter.basicfeature.domain.model.Rocket
-import eu.krzdabrowski.starter.basicfeature.presentation.model.RocketDisplayable
+import {{inputs.app_package}}.basicfeature.domain.model.Rocket
+import {{inputs.app_package}}.basicfeature.presentation.model.RocketDisplayable
 import java.time.format.DateTimeFormatter
 
 private const val TONNE = 1_000

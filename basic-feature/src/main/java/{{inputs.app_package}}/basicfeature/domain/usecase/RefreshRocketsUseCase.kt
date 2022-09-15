@@ -1,7 +1,7 @@
 package {{inputs.app_package}}.basicfeature.domain.usecase
 
-import eu.krzdabrowski.starter.basicfeature.domain.repository.RocketRepository
-import eu.krzdabrowski.starter.core.extensions.resultOf
+import {{inputs.app_package}}.basicfeature.domain.repository.RocketRepository
+import {{inputs.app_package}}.core.extensions.resultOf
 
 typealias RefreshRocketsUseCase =
     @JvmSuppressWildcards suspend () -> Result<Unit>
